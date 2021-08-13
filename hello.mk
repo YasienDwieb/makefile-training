@@ -6,3 +6,6 @@ blah.o: blah.c
 
 blah.c:
 	echo "int main(){return 0;}" > blah.c #First
+
+clean:
+	rm -f blah.c blah.o blah
